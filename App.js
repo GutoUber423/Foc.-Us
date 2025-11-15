@@ -319,7 +319,7 @@ export default function App() {
   return (
     <ScrollView contentContainerStyle={styles.appContainer}>
       <View style={styles.header}>
-        <Image source={require("./assets/logo.png")} style={styles.logoSmall} />
+        <Image source={require("logo.png")} style={styles.logoSmall} />
         <View style={{ marginLeft: 12 }}>
           <Text style={styles.appTitle}>Foc.Us</Text>
           <Text style={styles.appTag}>Focus + time back</Text>
